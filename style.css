@@ -1,0 +1,99 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    font-size: 15px;
+    line-height: 1.7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.service-bg-01{
+    background-image: url(img/blog-box-bg-01.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+.service-bg-02{
+    background-image: url(img/blog-box-bg-02.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+.service-bg-03{
+    background-image: url(img/blog-box-bg-03.jpg);
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section-padding {
+    padding: 70px 0;
+}
+.section-contain {
+    margin-bottom: 60px;
+}
+.section-contain h2 {
+    font-size: 30px;
+}
+.service-box-bg {
+    height: 200px;
+    position: relative;
+}
+.single-service-item {
+    border: 1px solid #e4e4e6;
+    text-align: center;
+}
+.single-service-item h2 {
+    background: #f97230 none repeat scroll 0 0;
+    bottom: -18px;
+    color: #fff;
+    font-size: 24px;
+    left: 8%;
+    margin: 0;
+    padding: 6px;
+    position: absolute;
+    width: 82%;
+}
+.single-service-item p {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 43px;
+}
+.single-service-item .readmore-btn:hover i.fa {
+    color: #f97230;
+}
+.single-service-item .readmore-btn {
+    color: #333;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    transition: .3s;
+}
